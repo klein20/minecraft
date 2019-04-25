@@ -42,12 +42,21 @@ ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none; }
 .contacts a {
 	color: #0f680e;
 }
-.skype {
-	color: black;
+.phone {
+	display: inline-block;
+	padding-left: 54px;
 }
-.skype a {
-	color: #1200ff;
+.text_skype {
+	color: #000000;
+	font-size: 16px;
 }
+a.skype  {
+	color: #1200ff;s
+}
+.text_contacts {
+	font-size: 16px;
+}
+
 .buttons {
 	display: inline-block;
 	font-family: Arial;
@@ -66,6 +75,23 @@ ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none; }
 	float: right;
 	margin-top: -75px;
 }
-li.main_menu {
-    background: #40b357;
+
+
+ul.main_menu  {display: flex;}
+
+a.main_menu {display: block;
+ }
+
+.menu_bg li {
+    width: calc(100%/5);
+    text-align: center;
+    color: white;
+    line-height: 44px;
+    background-color: #39a54e;
+}
+.menu_bg a {
+	color: white;
+}
+.menu_bg a:hover {
+	background-color: #44d660;
 }
