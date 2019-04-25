@@ -21,14 +21,16 @@ ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none; }
 	color: #ffffff;
 	width: 100%;
 }
+.logo {
+   display: inline-block;
+}
 .text_header {
 	display: inline-block;
 	line-height: 45px;
 }
 .social {
-	display: inline-block;
 	float: right;
-	padding: 8px 0;
+	padding: 8px 0 0;
 }
 .contacts {
 	display: inline-block;
@@ -62,36 +64,38 @@ a.skype  {
 	font-family: Arial;
 	color: #ffffff;
 	text-align: center;
+	vertical-align: top;
+	padding-top: 10px;
 }
 .button_form {
-	background-color: #fdcc0b;
+	background: linear-gradient(to top, #feba12, #fdd108);
 	border-radius: 3px;
-	padding: 11px 8px ;
-	font-family: 16px;
-	margin-top: 10px;
+	border-top: 1px solid #f3ec19;
+	border-bottom: 2px solid #293224;
+	padding: 10px 6px;
+	margin-bottom: 10px;
 }
+
+
 .logo_right {
 	display: inline-block;
 	float: right;
-	margin-top: -75px;
+	padding-top: 26px;
 }
-
-
 ul.main_menu  {display: flex;}
 
-a.main_menu {display: block;
+.main_menu a {display: block;
  }
-
 .menu_bg li {
     width: calc(100%/5);
     text-align: center;
     color: white;
     line-height: 44px;
-    background-color: #39a54e;
+    background: linear-gradient(to top, #3d9b50, #51c066);
+}
+.menu_bg li:hover {
+	background: linear-gradient(to top, #35a34b, #4cda67);
 }
 .menu_bg a {
 	color: white;
-}
-.menu_bg a:hover {
-	background-color: #44d660;
 }
