@@ -120,17 +120,24 @@ a.skype  {
 }
 
 .sidebar li {
-	color: #ff0000;
 	text-indent: 18px;
 	font-size: 16px;
 	padding-bottom: 4px;
 }
+
+.sidebar a {
+	color: #ff0000;
+}
+
 .second_sidebar li {
-	color: #010101;
 	font-size: 20px;
 	border-bottom: 1px solid #e7e7e7;
 	text-indent: 0;
 	padding: 18px 0 15px;
+}
+
+.second_sidebar a {
+	color: #010101;
 }
 
 .second_sidebar li:first-child {
@@ -142,8 +149,42 @@ a.skype  {
 	float: right;
 	width: 75%;
 }
+
 .text_article {
 	padding-top: 13px;
 	border-bottom: 1px solid #e7e7e7;
 	padding-bottom: 30px;
 }
+
+.text_news {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 25px 0 21px;
+}
+
+.block {
+	background: linear-gradient(to top, #45bc5c, #329545);
+	width: 232px;
+	color: white;
+}
+
+.date {
+	color: black;
+	font-weight: bold;
+	padding: 14px 0 8px 8px;
+	display: block;
+}
+
+.text_block {
+	padding-left: 7px; ;
+	border-bottom: 1px solid #57e974;
+}
+
+.block_wrap {
+	display: inline-block;
+}
+
+
+
+
+
