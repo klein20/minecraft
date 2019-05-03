@@ -25,13 +25,26 @@ ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none; }
 	width: 100%;
 }
 
+.yellow_line {
+	width: 100%;
+	background: linear-gradient(to top,  #f1b107, #fec50d);
+}
+
 .logo {
    display: inline-block;
+   padding-top: 10px;
 }
 
 .text_header {
 	display: inline-block;
 	line-height: 45px;
+}
+
+.text_footer {
+	color: white;
+	font-size: 20px;
+	display: inline-block;
+	padding-top: 15px;
 }
 
 .social {
@@ -44,37 +57,70 @@ ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none; }
 	color: #0f680e;
 	font-size: 20px;
 	width: 265px;
-	padding-left: 38px;
-	margin-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 5px;
 }
 
-.contacts a {
-	color: #0f680e;
+
+.contacts_footer {
+	float: right;
+	width: 275px;
+	padding: 10px 0;
 }
 
-.phone {
-	display: inline-block;
-	padding-left: 54px;
-}
 
 .text_skype {
 	color: #000000;
 	font-size: 16px;
+	display: inline-block;
 }
 
-a.skype  {
-	color: #1200ff;s
+a.skype   {
+	color: #1200ff;
 }
 
 .text_contacts {
+	font-size: 20px;
+	text-align: right;
+	line-height: 27px;
+}
+
+
+.text_contacts a {
+	color: #0f680e;
+	text-align: left;
+	width: 180px;
+	display: inline-block;
+}
+
+.text_contacts span {
 	font-size: 16px;
+	float: left;
+}
+
+.text_contacts_footer {
+	font-size: 20px;
+	text-align: right;
+}
+
+
+.text_contacts_footer a {
+	color: black;
+	text-align: left;
+	width: 180px;
+	display: inline-block;
+}
+
+.text_contacts_footer span {
+	font-size: 16px;
+	float: left;
 }
 
 .buttons {
 	display: inline-block;
 	text-align: center;
 	vertical-align: top;
-	padding-top: 10px;
+	padding: 10px 0 0 15px;
 }
 
 .button_form {
@@ -103,8 +149,19 @@ a.skype  {
     width: calc(100%/5);
     text-align: center;
     color: white;
+    border-left: 1px solid #247634;
+    border-right: 1px solid #57e974;
     line-height: 45px;
-    background: linear-gradient(to top, #3d9b50, #51c066);
+    
+}
+
+.menu {
+	background: linear-gradient(to top, #3d9b50, #51c066);
+}
+
+.menu ul {
+	border-right: 1px solid #247634;
+	border-left: 1px solid #57e974;
 }
 
 .menu li:hover {
@@ -153,13 +210,20 @@ a.skype  {
 .text_article {
 	padding-top: 13px;
 	border-bottom: 1px solid #e7e7e7;
-	padding-bottom: 30px;
+	padding-bottom: 38px;
+	line-height: 1.15em;
+}
+
+.news ul {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 15px;
 }
 
 .text_news {
 	font-size: 16px;
 	font-weight: bold;
-	padding: 25px 0 21px;
+	padding: 20px 0 21px;
 }
 
 .block {
@@ -183,6 +247,28 @@ a.skype  {
 .block_wrap {
 	display: inline-block;
 }
+
+
+.logo_line {
+	background: linear-gradient(to top, #3d9b50, #45bc5c);
+	padding: 5px 0 3px 0;	
+}
+
+.logo_line ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.copyrights {
+	padding: 22px 0;
+}
+
+
+
+
+
+
+
 
 
 
