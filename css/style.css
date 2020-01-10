@@ -152,7 +152,6 @@ a.skype   {
     border-left: 1px solid #247634;
     border-right: 1px solid #57e974;
     line-height: 45px;
-    
 }
 
 .menu {
@@ -229,6 +228,7 @@ a.skype   {
 .block {
 	background: linear-gradient(to top, #45bc5c, #329545);
 	width: 232px;
+	height: 90px;
 	color: white;
 }
 
